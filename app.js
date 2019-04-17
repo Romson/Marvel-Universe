@@ -4,7 +4,7 @@ const app = express();
 // Serve files in public folder
 app.use(express.static('public'));
 
-// Server ejs files
+// Serve ejs files
 app.set('view engine', 'ejs');
 
 // Make API calls
