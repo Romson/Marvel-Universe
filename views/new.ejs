@@ -1,0 +1,17 @@
+<% include partials/header %>
+
+<div class="container">
+    <div class="formDiv">
+        <h1>Add your favorite characters</h1>
+        
+        <form action="/characters" method="POST">
+            <input class="form-control" type="text" name="name" placeholder="Character name">
+            <input class="form-control" type="text" name="image" placeholder="Image url">
+            <button class="btn btn-primary">Submit</button>
+        </form>
+        
+        <a href="/characters">Go back</a>
+    </div>
+</div>
+
+<% include partials/footer %>
